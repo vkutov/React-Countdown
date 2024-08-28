@@ -1,0 +1,49 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(15, 14, 15, 0.87);
+  background-color: #f5fbfc;
+
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  cursor: grab;
+  color: black;
+  font-size: large;
+  font-weight: 100;
+  transition: border-color 0.5s;
+  border-radius: 4px;
+  border: 2px;
+  padding: 0.8em 1.4em;
+  background-color: #b99898;
+  margin: 10px;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #53f275;
+}

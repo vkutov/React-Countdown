@@ -1,0 +1,12 @@
+.countdown {
+    text-align: center;
+    width: 20px;
+
+    .button {
+        display: grid;
+        justify-content: space-around;
+        width: 12rem;
+        padding-inline: 0.5rem;
+
+    }
+}
